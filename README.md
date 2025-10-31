@@ -2,10 +2,10 @@
 
 # Setup Phase ✅
 
-Create React app
-Install all dependencies
-Setup TailwindCSS
-Create folder structure
+- Create React app
+- Install all dependencies
+- Setup TailwindCSS
+- Create folder structure
 Configure Axios instance
 Setup Redux store
 Create auth slice
