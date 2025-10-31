@@ -1,8 +1,8 @@
-import Home from "./pages/Home";
+import DashBoard from "./pages/DashBoard";
 const App = () => {
   return (
     <>
-      <Home />
+      <DashBoard />
     </>
   );
 };
