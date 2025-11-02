@@ -4,5 +4,14 @@ import BlogDetailsPage from "./blog/BlogDetailsPage";
 import BlogPage from "./blog/BlogPage";
 import CreateBlog from "./blog/CreateBlog";
 import EditBlog from "./blog/EditBlog";
+import DashBoard from "./DashBoard";
 
-export { BlogPage, CreateBlog, EditBlog, BlogDetailsPage, Login, SignUp };
+export {
+  DashBoard,
+  BlogPage,
+  CreateBlog,
+  EditBlog,
+  BlogDetailsPage,
+  Login,
+  SignUp,
+};

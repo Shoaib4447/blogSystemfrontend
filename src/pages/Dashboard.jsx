@@ -1,8 +1,5 @@
-import { Login, SignUp } from "./index";
-import { NavBar, BlogCard, BlogForm } from "../components";
-
 const DashBoard = () => {
-  return <section className='bg-gray-100 h-screen'>DashBoard</section>;
+  return <section className=''>Dashboard</section>;
 };
 
 export default DashBoard;

@@ -6,12 +6,12 @@
 - Install all dependencies
 - Setup TailwindCSS
 - Create folder structure
-Configure Axios instance
-Setup Redux store
-Create auth slice
-Create blog slice
-Setup toast utility
-Create protected routes
+  Configure Axios instance
+  Setup Redux store
+  Create auth slice
+  Create blog slice
+  Setup toast utility
+  Create protected routes
 
 # Authentication Phase 🔐
 

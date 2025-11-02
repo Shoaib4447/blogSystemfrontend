@@ -1,10 +1,16 @@
 import axiosInstance from "./axiosInstance";
 
+// user1@gmail.com
+// Ab2345678
+
 const authAPI = {
   signUp: (signUpFormData) =>
     axiosInstance.post("/auth/register", signUpFormData),
-  signUp: (logInFormData) =>
-    axiosInstance.post("/auth/register", logInFormData),
+  Login: (logInFormData) => axiosInstance.post("/auth/login", logInFormData),
+};
+
+const heathChechAPI = {
+  heathCheck: axiosInstance.get("/heathCheck"),
 };
 
 const blogAPI = {
@@ -17,4 +23,4 @@ const blogAPI = {
   deleteBlog: (id) => axiosInstance.delete(`/blogs/deleteBlog/${id}`),
 };
 
-export { authAPI, blogAPI };
+export { heathChechAPI, authAPI, blogAPI };
